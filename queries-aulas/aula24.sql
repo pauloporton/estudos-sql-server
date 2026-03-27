@@ -1,0 +1,9 @@
+-- FUNÇÕES MATEMATICAS SQL SERVER
+
+-- ROUND
+SELECT ROUND(RATE, 1)
+FROM HumanResources.EmployeePayHistory;
+
+-- SQRT
+SELECT SQRT(LINETOTAL)
+FROM Sales.SalesOrderDetail;
