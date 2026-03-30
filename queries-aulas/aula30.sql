@@ -1,0 +1,7 @@
+-- DELETE
+
+DELETE FROM aula
+WHERE Id = 2
+
+SELECT *
+FROM aula
