@@ -1,0 +1,17 @@
+-- COMANDOS DROP TABLE e TRUNCATE TABLE
+
+CREATE TABLE testeDrop (
+	coluna1 INT PRIMARY KEY,
+	coluna2 INT NOT NULL,
+	coluna3 INT NOT NULL
+);
+
+INSERT INTO testeDrop
+VALUES (1, 2, 3)
+
+SELECT *
+FROM testeDrop
+
+TRUNCATE TABLE testeDrop
+
+DROP TABLE testeDrop
